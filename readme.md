@@ -13,6 +13,7 @@ This program does not care about individual lights; it operates entirely on the 
 * python weatherlight.py
 * enjoy!
 * if you edit your scenes in the lifx app, then do 'refresh scenes' in the menu.
+* if you want to change what scenes happen when, you'll need to quit and relaunch.
 
 You may be saying to yourself "wait, can't If This Then That change a light based on the temperature and weather conditions?".
 
