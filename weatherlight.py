@@ -5,6 +5,8 @@
 # selects from a set of lifx scenes based on the temperature from forecast.io
 #
 #
+# TODO: figure out how to make it fire off immediately upon reawakening instead of waiting out the rest of its sleep period
+#
 # TODO: change color based on a weighted average of the next few hours' conditions instead of the next hour
 #
 # TODO: maybe change my studio lighting when it's a cloudy day?
@@ -71,10 +73,15 @@ latitude = '47.6659248'
 longitude = '-122.3181908'
 # where are you?
 # maybe this should talk to OSX's location manager… but that starts to look like work
+# also it sort of bugs me to have my light in Seattle changing based on Californa weather or whatever when I travel
 
 repeatDelay = 9*60  # delay between repetitions, in seconds
                     # lifx' api throttles you to about once a minute
                     # forecast.io throttles to 1000 requests/day (about one every 1.4 min)
+
+#
+# That's it for the configuration!
+#
 
 #
 # turns a list-with-sublists of scenes into a RUMPS menu definition

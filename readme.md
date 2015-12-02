@@ -20,21 +20,7 @@ This script also lets the weather conditions modify the displayed temperature. I
 
 Then since I was already getting a list of the scenes, I figured, why not add in the menu bar functionality so I don't have to hunt down one of the tablets or my phone when I'm at the computer and want to change the lighting?
 
+##License
+This is licensed under the WTFPL. Do whatever the fuck you want with it.
 
-TODO: change color based on a weighted average of the next few hours' conditions instead of the next hour
-
-TODO: maybe change my studio lighting when it's a cloudy day?
-
-keep an eye on the time, needs to be able to handle the case of lasttime was last night?
-if lasttime > now:
-  lasstime = midnight
-
-if lasttime < chosentime (~8:10am) > now:
-     SetScene(scenes['Studio Working (Cloudy)'],lifxToken)
-
-TODO: parse list of lights, add 'group off' items to the menu?
-
-TODO: store keys and schedule outside of the script
-
-TODO: package as an app and build a UI for setting all this up. RIGHT.
-      In my copious free time.
+If you turn this into a polished commercial app I'd appreciate a free copy. And some money if it makes any. But whatever.
