@@ -29,10 +29,10 @@ import time
 
 from rumps import *
 
-lifxToken = 'c2eb1a794f21fe61907b5f601f9a54e27224763f5b4b77392f6d34c8b97d145c'
+lifxToken = 'this is not a valid token'
 # generate your token at https://cloud.lifx.com/settings
 
-darkSkiesToken = '1a3d891deedaefbfb289b7e83e034682'
+darkSkiesToken = 'this is not a valid token'
 # generate your token at https://developer.forecast.io
 
 #
